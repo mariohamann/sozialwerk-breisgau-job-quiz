@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { store } from "../store";
+
 const props = defineProps<{
 	answer: {
 		text: string;
@@ -9,7 +11,9 @@ const props = defineProps<{
 }>();
 
 const handleClick = () => {
-	alert(JSON.stringify(props.answer.areas));
+	props.answer.areas.forEach((area) => {
+		store[area]++;
+	});
 };
 </script>
 

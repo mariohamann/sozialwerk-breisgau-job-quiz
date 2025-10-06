@@ -1,11 +1,23 @@
 <script setup lang="ts">
 import Intro from "./components/Intro.vue";
 import Question from "./components/Question.vue";
-
+import Result from "./components/Result.vue";
 import QuestionsData from "./questions.json";
+import AreasData from "./areas.json";
+
+import { store } from "./store";
+
+console.log(store);
 </script>
 
 <template>
+	<div>
+		<div v-for="area in AreasData" :key="area.id">
+			<p>
+				{{ area.id }}<span>{{ store[area.id] }}</span>
+			</p>
+		</div>
+	</div>
 	<div>
 		<a href="https://vite.dev" target="_blank">
 			<img src="/vite.svg" class="logo" alt="Vite logo" />
@@ -21,4 +33,5 @@ import QuestionsData from "./questions.json";
 		:question="question.title"
 		:answers="question.answers"
 	/>
+	<Result />
 </template>
