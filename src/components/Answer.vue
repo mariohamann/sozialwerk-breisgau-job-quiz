@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { store } from "../store";
+import { scores } from "../store";
 
 const props = defineProps<{
 	answer: {
@@ -12,7 +12,7 @@ const props = defineProps<{
 
 const handleClick = () => {
 	props.answer.areas.forEach((area) => {
-		store[area]++;
+		scores[area]++;
 	});
 };
 </script>

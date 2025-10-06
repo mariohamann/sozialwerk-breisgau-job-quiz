@@ -5,7 +5,7 @@ import Result from "./components/Result.vue";
 import QuestionsData from "./questions.json";
 import AreasData from "./areas.json";
 
-import { store } from "./store";
+import { scores } from "./store";
 import { infos } from "./infos";
 
 console.log(infos);
@@ -15,7 +15,7 @@ console.log(infos);
 	<div>
 		<div v-for="area in AreasData" :key="area.id">
 			<p>
-				{{ area.id }}<span>{{ store[area.id] }}</span>
+				{{ area.id }}<span>{{ scores[area.id] }}</span>
 			</p>
 		</div>
 	</div>

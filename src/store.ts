@@ -6,4 +6,4 @@ const initialStore = AreasData.reduce((acc, area) => {
   return acc;
 }, {});
 
-export const store = reactive(initialStore);
+export const scores = reactive(initialStore);
