@@ -8,7 +8,7 @@ const handleClick = () => {
 <template>
 	<div class="relative py-16 px-4">
 		<div
-			class="absolute inset-x-0 top-0 hidden h-1/2 lg:block"
+			class="absolute inset-x-0 top-0 hidden bg-white h-1/2 lg:block"
 			aria-hidden="true"
 		/>
 		<div
@@ -19,7 +19,7 @@ const handleClick = () => {
 					class="relative z-10 lg:col-span-4 lg:col-start-1 lg:row-start-1 lg:bg-transparent lg:py-16"
 				>
 					<div
-						class="absolute inset-x-0 h-1/2 lg:hidden"
+						class="absolute inset-x-0 h-1/2 bg-white lg:hidden"
 						aria-hidden="true"
 					/>
 					<div

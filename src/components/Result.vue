@@ -16,7 +16,7 @@ const topArea = computed(() => {
 <template>
 	<div class="relative py-16 px-4">
 		<div
-			class="absolute inset-x-0 top-0 hidden h-1/2lg:block"
+			class="absolute inset-x-0 top-0 hidden h-1/2 bg-white lg:block"
 			aria-hidden="true"
 		/>
 		<div
@@ -27,14 +27,14 @@ const topArea = computed(() => {
 					class="relative z-10 lg:col-span-4 lg:col-start-1 lg:row-start-1 lg:bg-transparent lg:py-16"
 				>
 					<div
-						class="absolute inset-x-0 h-1/2 lg:hidden"
+						class="absolute inset-x-0 h-1/2 lg:hidden bg-white"
 						aria-hidden="true"
 					/>
 					<div
 						class="mx-auto max-w-md px-6 sm:max-w-2xl lg:max-w-none lg:p-0"
 					>
 						<iframe
-							class="relative aspect-video w-full rounded-2xl shadow-2xl mt-6 lg:mt-0"
+							class="relative aspect-video w-full rounded-2xl shadow-2xl"
 							:src="`https://www.youtube-nocookie.com/embed/${topArea.youtube_id}`"
 							title="YouTube video player"
 							frameborder="0"

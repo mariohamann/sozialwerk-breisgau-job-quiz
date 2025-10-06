@@ -168,34 +168,5 @@
         ]
       }
     ]
-  },
-  {
-    "title": "Welches Smiley beschreibt dich am ehesten?",
-    "answers": [
-      {
-        "text": "",
-        "areas": [
-          "arbeitserzieher",
-          "fsj_wohnbereich",
-          "heilerziehungsassistent",
-          "praktikum"
-        ]
-      },
-      {
-        "text": "",
-        "areas": [
-          "soziale_arbeit",
-          "heilerziehungspfleger"
-        ]
-      },
-      {
-        "text": "",
-        "areas": [
-          "heilerziehungspfleger",
-          "fsj_wohnbereich",
-          "praktikum"
-        ]
-      }
-    ]
   }
 ]
