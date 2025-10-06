@@ -5,14 +5,6 @@ const handleClick = () => {
 };
 </script>
 
-<!-- <template>
-	<div>
-		<h1></h1>
-		
-		<button @click="handleClick">Start</button>
-	</div>
-</template> -->
-
 <template>
 	<div class="relative py-16 px-4">
 		<div
