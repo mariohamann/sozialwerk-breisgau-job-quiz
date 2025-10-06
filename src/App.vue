@@ -2,7 +2,6 @@
 import Intro from "./components/Intro.vue";
 import Question from "./components/Question.vue";
 import Result from "./components/Result.vue";
-import Info from "./components/Info.vue";
 import QuestionsData from "./questions.json";
 import AreasData from "./areas.json";
 
@@ -35,7 +34,7 @@ console.log(infos);
 		:key="index"
 		:question="question.title"
 		:answers="question.answers"
+		:info="infos.find((info) => info.question === index + 1)"
 	/>
-	<Info v-for="(content, index) in infos" :key="index" :content="content" />
 	<Result />
 </template>

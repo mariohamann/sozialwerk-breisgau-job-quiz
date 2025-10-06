@@ -5,7 +5,7 @@ interface InfoFrontmatter {
   title: string;
   img: string;
   alt: string;
-  after_question: number;
+  question: number;
 }
 
 export interface ParsedInfo extends InfoFrontmatter {
@@ -22,7 +22,7 @@ function parseFrontmatter(rawContent: string): ParsedInfo {
     title: '',
     img: '',
     alt: '',
-    after_question: 0,
+    question: 0,
     content: marked(rawContent)
   };
 
@@ -40,7 +40,7 @@ function parseFrontmatter(rawContent: string): ParsedInfo {
       const key = line.slice(0, colonIndex).trim();
       const value = line.slice(colonIndex + 1).trim().replace(/^["']|["']$/g, '');
 
-      if (key === 'after_question') {
+      if (key === 'question') {
         frontmatter[key] = parseInt(value, 10);
       } else {
         frontmatter[key as keyof InfoFrontmatter] = value as any;
@@ -53,7 +53,7 @@ function parseFrontmatter(rawContent: string): ParsedInfo {
     title: frontmatter.title || '',
     img: frontmatter.img || '',
     alt: frontmatter.alt || '',
-    after_question: frontmatter.after_question || 0,
+    question: frontmatter.question || 0,
     content: marked(bodyContent)
   };
 }

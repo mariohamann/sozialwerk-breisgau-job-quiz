@@ -2,7 +2,7 @@
 title: "Facts"
 img: "/static/img/Karriere.jpg"
 alt: "Karriere"
-after_question: 3
+question: 1
 ---
 
 🚀 Starte durch – mach den Unterschied! Bei uns warten Ausbildung, FSJ oder Praktikum – mit echter Verantwortung und Abwechslung. Du packst mit an, lernst Menschen kennen und entdeckst neue Seiten an dir.

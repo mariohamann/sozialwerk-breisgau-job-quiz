@@ -2,7 +2,7 @@
 title: "Das sind wir"
 img: "/static/img/Am_Bruckwald_Waldkirch.JPG"
 alt: "Am Bruckwald Waldkirch"
-after_question: 4
+question: 4
 ---
 
 👋 Entdecke das Sozialwerk Breisgau!
