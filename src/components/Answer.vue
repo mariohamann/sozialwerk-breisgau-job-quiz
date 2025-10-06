@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { scores } from "../store";
+import { scores } from "../stores";
 
 const props = defineProps<{
 	answer: {

@@ -5,7 +5,7 @@ import Result from "./components/Result.vue";
 import QuestionsData from "./questions.json";
 import AreasData from "./areas.json";
 
-import { scores } from "./store";
+import { scores } from "./stores";
 import { infos } from "./infos";
 
 console.log(infos);

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from "vue";
-import { scores } from "../store";
+import { scores } from "../stores";
 import AreasData from "../areas.json";
 
 const topArea = computed(() => {
