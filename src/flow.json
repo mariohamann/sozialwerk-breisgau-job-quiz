@@ -1,0 +1,307 @@
+{
+  "version": "3.1.0",
+  "start": "landing",
+  "nodes": [
+    {
+      "id": "landing",
+      "type": "media",
+      "media_kind": "landing",
+      "title": "Starte deine Zukunft beim Sozialwerk Breisgau",
+      "text": "Finde in 60 Sekunden deinen Weg: Ausbildung, FSJ oder Praktikum.",
+      "hero_image": "/static/img/start.png",
+      "next": "q1"
+    },
+    {
+      "id": "q1",
+      "type": "question",
+      "title": "Wie startest du am liebsten in deinen Tag?",
+      "info_text": "Such dir den perfekten Einstieg aus.",
+      "options": [
+        {
+          "label": "Morgens durch Büros gehen und den Tagesablauf und Termine checken",
+          "info": "",
+          "image_url": "/static/img/Büro.jpg",
+          "score": { "Bueromanagement": 1, "Sozialwirtschaft": 1 },
+          "next": "q2"
+        },
+        {
+          "label": "Im Morgenkreis mit der Wohngruppe und Teamkolleg:innen sein",
+          "info": "",
+          "image_url": "/static/img/Morgenkreis.jpg",
+          "score": { "FSJ_Wohnbereich": 1, "Heilerziehungsassistent": 1, "Heilerziehungspfleger": 1, "Praktikum": 1 },
+          "next": "q2"
+        },
+        {
+          "label": "Leckere Brötchen in unserer Bäckerei backen",
+          "info": "",
+          "image_url": "/static/img/Bäckerei.jpg",
+          "score": { "FSJ_Werkstatt": 1, "Heilerziehungsassistent": 1, "Heilerziehungspfleger": 1, "Praktikum": 1 },
+          "next": "q2"
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "question",
+      "title": "Welcher Aktion passt am Besten zu dir?",
+      "info_text": "Bauchgefühl genügt!",
+      "options": [
+        {
+          "label": "Samstagsspaziergang mit Paula am Stadtrainsee",
+          "info": "",
+          "image_url": "/static/img/Stadtrainsee.jpg",
+          "score": { "FSJ_Wohnbereich": 1, "Heilerziehungsassistent": 1, "Heilerziehungspfleger": 1, "Praktikum": 1 },
+          "next": "q3"
+        },
+        {
+          "label": "Mit Jens an einer Vorrichtung in der Werkstatt arbeiten",
+          "info": "",
+          "image_url": "/static/img/Werkstatt_Vorrichtung.jpg",
+          "score": { "FSJ_Werkstatt": 1, "Arbeitserzieher": 1, "Praktikum": 1 },
+          "next": "q3"
+        },
+        {
+          "label": "Mit Anna ein kreatives Projekt starten (z. B. ein Bild malen oder etwas bauen)",
+          "info": "",
+          "image_url": "/static/img/Kreatives_Projekt.jpg",
+          "score": { "Arbeitserzieher": 1, "Heilerziehung": 1, "FSJ_Wohnbereich": 1, "Praktikum": 1 },
+          "next": "q3"
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "type": "question",
+      "title": "Wie sieht's aktuell bei dir aus?",
+      "info_text": "Wähle deinen Weg!",
+      "options": [
+        {
+          "label": "Wie Alicia direkt Ausbildung/Studium starten",
+          "info": "",
+          "image_url": "/static/img/Direkt_Starten.jpg",
+          "score": { "Bueromanagement": 1, "Heilerziehungsassistent": 1, "Heilerziehungspfleger": 1, "Arbeitserzieher": 1, "Sozialwirtschaft": 1, "Soziale_Arbeit": 1 },
+          "next": "q4"
+        },
+        {
+          "label": "Wie Jakob erst mal orientieren ohne Lernen",
+          "info": "",
+          "image_url": "/static/img/Orientiere_ ohne_lernen.jpg",
+          "score": { "FSJ_Wohnbereich": 1, "FSJ_Werkstatt": 1, "Praktikum": 1 },
+          "next": "q4"
+        },
+        {
+          "label": "Wie Philipp erst mal orientieren ohne Lernen",
+          "info": "",
+          "image_url": "/static/img/Training FuBa.jpg",
+          "score": { "FSJ_Wohnbereich": 1, "FSJ_Werkstatt": 1, "Praktikum": 1 },
+          "next": "q4"
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "type": "question",
+      "title": "Was fällt dir am schwersten?",
+      "info_text": "No worries, das bleibt unter uns ;-).",
+      "options": [
+        {
+          "label": "Ohne Handy",
+          "info": "",
+          "image_url": "/static/img/Handy.png",
+          "next": "spotlight_company"
+        },
+        {
+          "label": "Ohne Musik",
+          "info": "",
+          "image_url": "/static/img/Musik.png",
+          "next": "spotlight_company"
+        },
+        {
+          "label": "Ohne Snacks",
+          "info": "",
+          "image_url": "/static/img/Snack.png",
+          "next": "spotlight_company"
+        }
+      ]
+    },
+    {
+      "id": "spotlight_company",
+      "type": "media",
+      "media_kind": "company_spotlight",
+      "title": "DAS SIND WIR",
+      "text": "👋 Entdecke das Sozialwerk Breisgau! \n Seit über 50 Jahren sind wir in Freiburg & Waldkirch für Menschen mit Behinderung da – mit Zuhause, Arbeit & Gemeinschaft.\n\n👉 Unser Standort Am Bruckwald in Waldkirch:\n\n• 20 Werkstätten – von Küche, Café & Schreinerei bis zu Nudelproduktion & Gärtnerei\n• 15 Wohngruppen – direkt Am Bruckwald und in der Innenstadt von Waldkirch – hier sind wir daheim\n• Über 500 Mitarbeitende – damit zählen wir zu den drei größten Arbeitgebern in Waldkirch.",
+      "image_url": "/static/img/Am_Bruckwald_Waldkirch.JPG",
+      "next": "q5"
+    },
+    {
+      "id": "q5",
+      "type": "question",
+      "title": "Was feierst du am meisten?",
+      "info_text": "Entscheide mit einem Klick.",
+      "options": [
+        {
+          "label": "Mit Teams zusammensitzen und über die Entwicklung von Bewohner:innen sprechen",
+          "info": "",
+          "image_url": "/static/img/Entwicklung.jpg",
+          "score": { "Heilerziehungsassistent": 1, "Heilerziehungspfleger": 1, "Soziale_Arbeit": 1, "FSJ_Wohnbereich": 1, "FSJ_Werkstatt": 1, "Praktikum": 1 },
+          "next": "spotlight_company2"
+        },
+        {
+          "label": "Konzept für neues Projekt entwerfen (Ausbildungsbegleitung)",
+          "info": "",
+          "image_url": "/static/img/Konzept.jpg",
+          "score": { "Sozialwirtschaft": 1, "Bueromanagement": 1 },
+          "next": "spotlight_company2"
+        },
+        {
+          "label": "Werkstattvorrichtung",
+          "info": "",
+          "image_url": "/static/img/Werkstatt_Vorrichtung.jpg",
+          "score": { "Sozialwirtschaft": 1, "Bueromanagement": 1 },
+          "next": "spotlight_company2"
+        }
+      ]
+    },
+        {
+      "id": "spotlight_company2",
+      "type": "media",
+      "media_kind": "company_spotlight",
+      "title": "FACTS",
+      "text": "🚀 Starte durch – mach den Unterschied! Bei uns warten Ausbildung, FSJ oder Praktikum – mit echter Verantwortung und Abwechslung. Du packst mit an, lernst Menschen kennen und entdeckst neue Seiten an dir.\n👉 Facts, die zeigen, dass hier richtig was geht:\n✔ 94 % unserer Azubis werden übernommen\n✔ 2/3 unserer Geschäftsführung haben mit einem FSJ bei uns begonnen\n✔ Rund 30 Azubis & bis zu 20 FSJler – Austausch garantiert!",
+      "image_url": "/static/img/Karriere.jpg",
+      "next": "q7"
+    },
+    {
+      "id": "q7",
+      "type": "question",
+      "title": "Wo siehst du dich?",
+      "info_text": "Schwere Wahl, aber such dir eins aus.",
+      "options": [
+        {
+          "label": "Mit Felix Tisch decken fürs Mittagessen",
+          "info": "",
+          "image_url": "/static/img/Tischdecken.jpg",
+          "score": { "Arbeitserzieher": 1, "FSJ_Wohnbereich": 1, "Heilerziehungsassistent": 1, "Praktikum": 1, "FSJ_Werkstatt": 1 },
+          "next": "q8"
+        },
+        {
+          "label": "Im Elterngespräch die Entwicklung von Jonas dokumentieren",
+          "info": "",
+          "image_url": "/static/img/Entwicklung 2.jpg",
+          "score": { "Soziale_Arbeit": 1, "Heilerziehungspfleger": 1 },
+          "next": "q8"
+        },
+        {
+          "label": "Einen Freizeit-Ausflug für drei Bewohner planen (z. B. Kino oder Schwimmbad)",
+          "info": "",
+          "image_url": "/static/img/Freizeit.jpg",
+          "score": { "Heilerziehungspfleger": 1, "FSJ_Wohnbereich": 1, "Praktikum": 1 },
+          "next": "q8"
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "type": "question",
+      "title": "Welches Smiley beschreibt dich am ehesten?",
+      "info_text": "Info Info Info.",
+      "options": [
+        {
+          "label": "",
+          "info": "",
+          "image_url": "/static/img/Emoji 1.png",
+          "score": { "Arbeitserzieher": 1, "FSJ_Wohnbereich": 1, "Heilerziehungsassistent": 1, "Praktikum": 1 },
+          "next": "end_router"
+        },
+        {
+          "label": "",
+          "info": "",
+          "image_url": "/static/img/Emoji 2.png",
+          "score": { "Soziale_Arbeit": 1, "Heilerziehungspfleger": 1 },
+          "next": "end_router"
+        },
+        {
+          "label": "",
+          "info": "",
+          "image_url": "/static/img/Emoji 4.png",
+          "score": { "Heilerziehungspfleger": 1, "FSJ_Wohnbereich": 1, "Praktikum": 1 },
+          "next": "end_router"
+        }
+      ]
+    },
+    {
+      "id": "end_router",
+      "type": "result",
+      "title": "Dein Match beim Sozialwerk",
+      "logic": "max",
+      "tie_breaker": [
+        "Heilerziehungspfleger",
+        "FSJ_Wohnbereich",
+        "FSJ_Werkstatt",
+        "Arbeitserzieher",
+        "Heilerziehungsassistent",
+        "Soziale_Arbeit",
+        "Sozialwirtschaft",
+        "Bueromanagement",
+        "Praktikum",
+        "Heilerziehung"
+      ],
+      "results": [
+        {
+          "area": "Heilerziehungspfleger",
+          "text": "Du willst mit Menschen arbeiten – Begleitung & Pflege passen zu dir.",
+          "image_url": "/static/img/rakete.png"
+        },
+        {
+          "area": "FSJ_Wohnbereich",
+          "text": "Du liebst Teamarbeit und direkten Kontakt – der Wohnbereich passt zu dir.",
+          "image_url": "/static/img/traene.png"
+        },
+        {
+          "area": "FSJ_Werkstatt",
+          "text": "Anpacken, herstellen, gestalten – die Werkstatt ist dein Ort.",
+          "image_url": "/static/img/rakete.png"
+        },
+        {
+          "area": "Arbeitserzieher",
+          "text": "Du förderst Fähigkeiten praktisch und kreativ – genau dein Ding.",
+          "image_url": "/static/img/rakete.png"
+        },
+        {
+          "area": "Heilerziehungsassistent",
+          "text": "Du unterstützt einfühlsam im Alltag und gibst Halt.",
+          "image_url": "/static/img/rakete.png"
+        },
+        {
+          "area": "Soziale_Arbeit",
+          "text": "Beraten, begleiten, vernetzen – soziale Prozesse liegen dir.",
+          "image_url": "/static/img/rakete.png"
+        },
+        {
+          "area": "Sozialwirtschaft",
+          "text": "Organisieren, steuern, Verantwortung übernehmen – hier passt du rein.",
+          "image_url": "/static/img/rakete.png"
+        },
+        {
+          "area": "Bueromanagement",
+          "text": "Du bringst Struktur und Überblick ins Team.",
+          "image_url": "/static/img/rakete.png"
+        },
+        {
+          "area": "Praktikum",
+          "text": "Erstmal ausprobieren und orientieren – starte mit einem Praktikum.",
+          "image_url": "/static/img/smiley_mit_Brille.png"
+        },
+        {
+          "area": "Heilerziehung",
+          "text": "Begleiten, fördern, Teilhabe gestalten – Heilerziehung passt zu dir.",
+          "image_url": "/static/img/rakete.png"
+        }
+      ],
+      "cta": {
+        "label": "Jetzt informieren",
+        "url": "https://www.sozialwerk-breisgau.de/stellenangebote/am-bruckwald/"
+      }
+    }
+  ]
+}
