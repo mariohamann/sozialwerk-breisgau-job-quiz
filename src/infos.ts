@@ -54,7 +54,7 @@ function parseFrontmatter(rawContent: string): ParsedInfo {
   };
 }
 
-const modules = import.meta.glob('./infos/*.md', { query: '?raw', import: 'default', eager: true });
+const modules = import.meta.glob('./content/infos/*.md', { query: '?raw', import: 'default', eager: true });
 
 export const infos = ref<ParsedInfo[]>(
   Object.entries(modules).map(([path, content]) => ({

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from "vue";
 import { scores } from "../stores";
-import AreasData from "../areas.json";
+import AreasData from "../content/areas.json";
 
 const topArea = computed(() => {
 	const [id, score] = Object.entries(scores).sort(([, a], [, b]) => b - a)[0];

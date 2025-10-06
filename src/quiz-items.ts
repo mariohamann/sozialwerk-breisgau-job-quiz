@@ -1,5 +1,5 @@
 import { computed } from 'vue';
-import QuestionsData from './questions.json';
+import QuestionsData from './content/questions.json';
 import { infos } from './infos';
 
 interface Question {
