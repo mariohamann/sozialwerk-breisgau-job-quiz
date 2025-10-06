@@ -1,0 +1,243 @@
+[
+  {
+    "title": "Wie startest du am liebsten in deinen Tag?",
+    "answers": [
+      {
+        "text": "Morgens durch Büros gehen und den Tagesablauf und Termine checken",
+        "image": "/static/img/Büro.jpg",
+        "alt": "Büro",
+        "areas": [
+          "bueromanagement",
+          "sozialwirtschaft"
+        ]
+      },
+      {
+        "text": "Im Morgenkreis mit der Wohngruppe und Teamkolleg:innen sein",
+        "image": "/static/img/Morgenkreis.jpg",
+        "alt": "Morgenkreis",
+        "areas": [
+          "fsj_wohnbereich",
+          "heilerziehungsassistent",
+          "heilerziehungspfleger",
+          "praktikum"
+        ]
+      },
+      {
+        "text": "Leckere Brötchen in unserer Bäckerei backen",
+        "image": "/static/img/Bäckerei.jpg",
+        "alt": "Bäckerei",
+        "areas": [
+          "fsj_werkstatt",
+          "heilerziehungsassistent",
+          "heilerziehungspfleger",
+          "praktikum"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Welcher Aktion passt am Besten zu dir?",
+    "answers": [
+      {
+        "text": "Samstagsspaziergang mit Paula am Stadtrainsee",
+        "image": "/static/img/Stadtrainsee.jpg",
+        "alt": "Stadtrainsee",
+        "areas": [
+          "fsj_wohnbereich",
+          "heilerziehungsassistent",
+          "heilerziehungspfleger",
+          "praktikum"
+        ]
+      },
+      {
+        "text": "Mit Jens an einer Vorrichtung in der Werkstatt arbeiten",
+        "image": "/static/img/Werkstatt_Vorrichtung.jpg",
+        "alt": "Werkstatt Vorrichtung",
+        "areas": [
+          "fsj_werkstatt",
+          "arbeitserzieher",
+          "praktikum"
+        ]
+      },
+      {
+        "text": "Mit Anna ein kreatives Projekt starten (z. B. ein Bild malen oder etwas bauen)",
+        "image": "/static/img/Kreatives_Projekt.jpg",
+        "alt": "Kreatives Projekt",
+        "areas": [
+          "arbeitserzieher",
+          "heilerziehung",
+          "fsj_wohnbereich",
+          "praktikum"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Wie sieht's aktuell bei dir aus?",
+    "answers": [
+      {
+        "text": "Wie Alicia direkt Ausbildung/Studium starten",
+        "image": "/static/img/Direkt_Starten.jpg",
+        "alt": "Direkt Starten",
+        "areas": [
+          "bueromanagement",
+          "heilerziehungsassistent",
+          "heilerziehungspfleger",
+          "arbeitserzieher",
+          "sozialwirtschaft",
+          "soziale_arbeit"
+        ]
+      },
+      {
+        "text": "Wie Jakob erst mal orientieren ohne Lernen",
+        "image": "/static/img/Orientiere_ ohne_lernen.jpg",
+        "alt": "Orientieren ohne lernen",
+        "areas": [
+          "fsj_wohnbereich",
+          "fsj_werkstatt",
+          "praktikum"
+        ]
+      },
+      {
+        "text": "Wie Philipp erst mal orientieren ohne Lernen",
+        "image": "/static/img/Training FuBa.jpg",
+        "alt": "Training Fußball",
+        "areas": [
+          "fsj_wohnbereich",
+          "fsj_werkstatt",
+          "praktikum"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Was fällt dir am schwersten?",
+    "answers": [
+      {
+        "text": "Ohne Handy",
+        "image": "/static/img/Handy.png",
+        "alt": "Handy",
+        "areas": []
+      },
+      {
+        "text": "Ohne Musik",
+        "image": "/static/img/Musik.png",
+        "alt": "Musik",
+        "areas": []
+      },
+      {
+        "text": "Ohne Snacks",
+        "image": "/static/img/Snack.png",
+        "alt": "Snack",
+        "areas": []
+      }
+    ]
+  },
+  {
+    "title": "Was feierst du am meisten?",
+    "answers": [
+      {
+        "text": "Mit Teams zusammensitzen und über die Entwicklung von Bewohner:innen sprechen",
+        "image": "/static/img/Entwicklung.jpg",
+        "alt": "Entwicklung",
+        "areas": [
+          "heilerziehungsassistent",
+          "heilerziehungspfleger",
+          "soziale_arbeit",
+          "fsj_wohnbereich",
+          "fsj_werkstatt",
+          "praktikum"
+        ]
+      },
+      {
+        "text": "Konzept für neues Projekt entwerfen (Ausbildungsbegleitung)",
+        "image": "/static/img/Konzept.jpg",
+        "alt": "Konzept",
+        "areas": [
+          "sozialwirtschaft",
+          "bueromanagement"
+        ]
+      },
+      {
+        "text": "Werkstattvorrichtung",
+        "image": "/static/img/Werkstatt_Vorrichtung.jpg",
+        "alt": "Werkstatt Vorrichtung",
+        "areas": [
+          "sozialwirtschaft",
+          "bueromanagement"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Wo siehst du dich?",
+    "answers": [
+      {
+        "text": "Mit Felix Tisch decken fürs Mittagessen",
+        "image": "/static/img/Tischdecken.jpg",
+        "alt": "Tischdecken",
+        "areas": [
+          "arbeitserzieher",
+          "fsj_wohnbereich",
+          "heilerziehungsassistent",
+          "praktikum",
+          "fsj_werkstatt"
+        ]
+      },
+      {
+        "text": "Im Elterngespräch die Entwicklung von Jonas dokumentieren",
+        "image": "/static/img/Entwicklung 2.jpg",
+        "alt": "Entwicklung",
+        "areas": [
+          "soziale_arbeit",
+          "heilerziehungspfleger"
+        ]
+      },
+      {
+        "text": "Einen Freizeit-Ausflug für drei Bewohner planen (z. B. Kino oder Schwimmbad)",
+        "image": "/static/img/Freizeit.jpg",
+        "alt": "Freizeit",
+        "areas": [
+          "heilerziehungspfleger",
+          "fsj_wohnbereich",
+          "praktikum"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Welches Smiley beschreibt dich am ehesten?",
+    "answers": [
+      {
+        "text": "",
+        "image": "/static/img/Emoji 1.png",
+        "alt": "Emoji 1",
+        "areas": [
+          "arbeitserzieher",
+          "fsj_wohnbereich",
+          "heilerziehungsassistent",
+          "praktikum"
+        ]
+      },
+      {
+        "text": "",
+        "image": "/static/img/Emoji 2.png",
+        "alt": "Emoji 2",
+        "areas": [
+          "soziale_arbeit",
+          "heilerziehungspfleger"
+        ]
+      },
+      {
+        "text": "",
+        "image": "/static/img/Emoji 4.png",
+        "alt": "Emoji 4",
+        "areas": [
+          "heilerziehungspfleger",
+          "fsj_wohnbereich",
+          "praktikum"
+        ]
+      }
+    ]
+  }
+]

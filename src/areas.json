@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Heilerziehungspfleger",
+    "id": "heilerziehungspfleger",
+    "text": "Du willst mit Menschen arbeiten – Begleitung & Pflege passen zu dir.",
+    "img": "/static/img/rakete.png",
+    "alt": "Rakete"
+  },
+  {
+    "title": "FSJ Wohnbereich",
+    "id": "fsj_wohnbereich",
+    "text": "Du liebst Teamarbeit und direkten Kontakt – der Wohnbereich passt zu dir.",
+    "img": "/static/img/traene.png",
+    "alt": "Träne"
+  },
+  {
+    "title": "FSJ Werkstatt",
+    "id": "fsj_werkstatt",
+    "text": "Anpacken, herstellen, gestalten – die Werkstatt ist dein Ort.",
+    "img": "/static/img/rakete.png",
+    "alt": "Rakete"
+  },
+  {
+    "title": "Arbeitserzieher",
+    "id": "arbeitserzieher",
+    "text": "Du förderst Fähigkeiten praktisch und kreativ – genau dein Ding.",
+    "img": "/static/img/rakete.png",
+    "alt": "Rakete"
+  },
+  {
+    "title": "Heilerziehungsassistent",
+    "id": "heilerziehungsassistent",
+    "text": "Du unterstützt einfühlsam im Alltag und gibst Halt.",
+    "img": "/static/img/rakete.png",
+    "alt": "Rakete"
+  },
+  {
+    "title": "Soziale Arbeit",
+    "id": "soziale_arbeit",
+    "text": "Beraten, begleiten, vernetzen – soziale Prozesse liegen dir.",
+    "img": "/static/img/rakete.png",
+    "alt": "Rakete"
+  },
+  {
+    "title": "Sozialwirtschaft",
+    "id": "sozialwirtschaft",
+    "text": "Organisieren, steuern, Verantwortung übernehmen – hier passt du rein.",
+    "img": "/static/img/rakete.png",
+    "alt": "Rakete"
+  },
+  {
+    "title": "Büromanagement",
+    "id": "bueromanagement",
+    "text": "Du bringst Struktur und Überblick ins Team.",
+    "img": "/static/img/rakete.png",
+    "alt": "Rakete"
+  },
+  {
+    "title": "Praktikum",
+    "id": "praktikum",
+    "text": "Erstmal ausprobieren und orientieren – starte mit einem Praktikum.",
+    "img": "/static/img/smiley_mit_Brille.png",
+    "alt": "Smiley mit Brille"
+  },
+  {
+    "title": "Heilerziehung",
+    "id": "heilerziehung",
+    "text": "Begleiten, fördern, Teilhabe gestalten – Heilerziehung passt zu dir.",
+    "img": "/static/img/rakete.png",
+    "alt": "Rakete"
+  }
+]

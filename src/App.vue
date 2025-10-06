@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import Intro from "./components/Intro.vue";
+import Question from "./components/Question.vue";
 
-import Content from "./flow.json";
-console.log(Content);
+import QuestionsData from "./questions.json";
 </script>
 
 <template>
@@ -15,19 +15,10 @@ console.log(Content);
 		</a>
 	</div>
 	<Intro />
+	<Question
+		v-for="(question, index) in QuestionsData"
+		:key="index"
+		:question="question.title"
+		:answers="question.answers"
+	/>
 </template>
-
-<style scoped>
-.logo {
-	height: 6em;
-	padding: 1.5em;
-	will-change: filter;
-	transition: filter 300ms;
-}
-.logo:hover {
-	filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-	filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
