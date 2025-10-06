@@ -7,3 +7,5 @@ const initialStore = AreasData.reduce((acc, area) => {
 }, {});
 
 export const scores = reactive(initialStore);
+
+export const position = reactive({ value: 0 });

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { scores } from "../stores";
+import { scores, position } from "../stores";
 
 const props = defineProps<{
 	answer: {
@@ -14,6 +14,8 @@ const handleClick = () => {
 	props.answer.areas.forEach((area) => {
 		scores[area]++;
 	});
+
+	position.value++;
 };
 </script>
 

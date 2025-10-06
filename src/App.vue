@@ -1,17 +1,17 @@
 <script setup lang="ts">
 import Intro from "./components/Intro.vue";
 import Question from "./components/Question.vue";
+import Info from "./components/Info.vue";
 import Result from "./components/Result.vue";
-import QuestionsData from "./questions.json";
 import AreasData from "./areas.json";
 
-import { scores } from "./stores";
-import { infos } from "./infos";
-
-console.log(infos);
+import { scores, position } from "./stores";
+import { quizItems } from "./quiz-items";
 </script>
 
 <template>
+	<div>{{ position }}</div>
+
 	<div>
 		<div v-for="area in AreasData" :key="area.id">
 			<p>
@@ -28,13 +28,16 @@ console.log(infos);
 		</a>
 	</div>
 
-	<Intro />
-	<Question
-		v-for="(question, index) in QuestionsData"
-		:key="index"
-		:question="question.title"
-		:answers="question.answers"
-		:info="infos.find((info) => info.question === index + 1)"
-	/>
-	<Result />
+	<Intro v-if="0 === position.value" />
+	<template v-for="(item, index) in quizItems" :key="index">
+		<div v-if="index + 1 === position.value">
+			<Question
+				v-if="item.type === 'question'"
+				:question="item.title"
+				:answers="item.answers"
+			/>
+			<Info v-else-if="item.type === 'info'" :content="item" />
+		</div>
+	</template>
+	<Result v-if="position.value === quizItems.length + 1" />
 </template>
