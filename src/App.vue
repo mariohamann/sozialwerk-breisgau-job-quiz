@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue";
+import Intro from "./components/Intro.vue";
 
 import Content from "./flow.json";
 console.log(Content);
@@ -14,7 +14,7 @@ console.log(Content);
 			<img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
 		</a>
 	</div>
-	<HelloWorld msg="Vite + Vue" />
+	<Intro />
 </template>
 
 <style scoped>
