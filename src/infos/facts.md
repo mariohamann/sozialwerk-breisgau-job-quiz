@@ -1,7 +1,5 @@
 ---
 title: "Facts"
-img: "/static/img/Karriere.jpg"
-alt: "Karriere"
 question: 1
 ---
 

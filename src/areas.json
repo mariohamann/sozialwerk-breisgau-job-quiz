@@ -2,71 +2,51 @@
   {
     "title": "Heilerziehungspfleger",
     "id": "heilerziehungspfleger",
-    "text": "Du willst mit Menschen arbeiten – Begleitung & Pflege passen zu dir.",
-    "img": "/static/img/rakete.png",
-    "alt": "Rakete"
+    "text": "Du willst mit Menschen arbeiten – Begleitung & Pflege passen zu dir."
   },
   {
     "title": "FSJ Wohnbereich",
     "id": "fsj_wohnbereich",
-    "text": "Du liebst Teamarbeit und direkten Kontakt – der Wohnbereich passt zu dir.",
-    "img": "/static/img/traene.png",
-    "alt": "Träne"
+    "text": "Du liebst Teamarbeit und direkten Kontakt – der Wohnbereich passt zu dir."
   },
   {
     "title": "FSJ Werkstatt",
     "id": "fsj_werkstatt",
-    "text": "Anpacken, herstellen, gestalten – die Werkstatt ist dein Ort.",
-    "img": "/static/img/rakete.png",
-    "alt": "Rakete"
+    "text": "Anpacken, herstellen, gestalten – die Werkstatt ist dein Ort."
   },
   {
     "title": "Arbeitserzieher",
     "id": "arbeitserzieher",
-    "text": "Du förderst Fähigkeiten praktisch und kreativ – genau dein Ding.",
-    "img": "/static/img/rakete.png",
-    "alt": "Rakete"
+    "text": "Du förderst Fähigkeiten praktisch und kreativ – genau dein Ding."
   },
   {
     "title": "Heilerziehungsassistent",
     "id": "heilerziehungsassistent",
-    "text": "Du unterstützt einfühlsam im Alltag und gibst Halt.",
-    "img": "/static/img/rakete.png",
-    "alt": "Rakete"
+    "text": "Du unterstützt einfühlsam im Alltag und gibst Halt."
   },
   {
     "title": "Soziale Arbeit",
     "id": "soziale_arbeit",
-    "text": "Beraten, begleiten, vernetzen – soziale Prozesse liegen dir.",
-    "img": "/static/img/rakete.png",
-    "alt": "Rakete"
+    "text": "Beraten, begleiten, vernetzen – soziale Prozesse liegen dir."
   },
   {
     "title": "Sozialwirtschaft",
     "id": "sozialwirtschaft",
-    "text": "Organisieren, steuern, Verantwortung übernehmen – hier passt du rein.",
-    "img": "/static/img/rakete.png",
-    "alt": "Rakete"
+    "text": "Organisieren, steuern, Verantwortung übernehmen – hier passt du rein."
   },
   {
     "title": "Büromanagement",
     "id": "bueromanagement",
-    "text": "Du bringst Struktur und Überblick ins Team.",
-    "img": "/static/img/rakete.png",
-    "alt": "Rakete"
+    "text": "Du bringst Struktur und Überblick ins Team."
   },
   {
     "title": "Praktikum",
     "id": "praktikum",
-    "text": "Erstmal ausprobieren und orientieren – starte mit einem Praktikum.",
-    "img": "/static/img/smiley_mit_Brille.png",
-    "alt": "Smiley mit Brille"
+    "text": "Erstmal ausprobieren und orientieren – starte mit einem Praktikum."
   },
   {
     "title": "Heilerziehung",
     "id": "heilerziehung",
-    "text": "Begleiten, fördern, Teilhabe gestalten – Heilerziehung passt zu dir.",
-    "img": "/static/img/rakete.png",
-    "alt": "Rakete"
+    "text": "Begleiten, fördern, Teilhabe gestalten – Heilerziehung passt zu dir."
   }
 ]

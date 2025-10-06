@@ -1,7 +1,5 @@
 ---
 title: "Das sind wir"
-img: "/static/img/Am_Bruckwald_Waldkirch.JPG"
-alt: "Am Bruckwald Waldkirch"
 question: 4
 ---
 

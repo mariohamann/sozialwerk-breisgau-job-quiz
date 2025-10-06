@@ -3,8 +3,6 @@ import { marked } from 'marked';
 
 interface InfoFrontmatter {
   title: string;
-  img: string;
-  alt: string;
   question: number;
 }
 
@@ -51,8 +49,6 @@ function parseFrontmatter(rawContent: string): ParsedInfo {
   return {
     path: '',
     title: frontmatter.title || '',
-    img: frontmatter.img || '',
-    alt: frontmatter.alt || '',
     question: frontmatter.question || 0,
     content: marked(bodyContent)
   };

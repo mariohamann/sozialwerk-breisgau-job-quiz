@@ -16,6 +16,7 @@ import { quizItems } from "./quiz-items";
 				<Question
 					v-if="item.type === 'question'"
 					:question="item.title"
+					:questionIndex="item.index"
 					:answers="item.answers"
 				/>
 				<Info v-else-if="item.type === 'info'" :content="item" />
