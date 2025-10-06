@@ -28,7 +28,7 @@ const imageSrc = new URL(
 
 <template>
 	<article
-		class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pt-80 pb-8 sm:pt-48 lg:pt-80 cursor-pointer transition-transform hover:scale-105"
+		class="relative isolate lg:w-80 flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 pt-80 pb-8 sm:pt-48 lg:pt-80 cursor-pointer transition-transform hover:scale-105"
 		@click="handleClick"
 	>
 		<img
