@@ -17,10 +17,12 @@ const topArea = computed(() => {
 	<div>
 		<h2>Ergebnis</h2>
 		<div class="mb-4">
-			<h3 class="text-lg font-semibold">
-				{{ topArea.id }}: {{ topArea.score }} Punkte
-			</h3>
+			<h3 class="text-lg font-semibold">Dein Match beim Sozialwerk</h3>
 			<p>{{ topArea.title }}</p>
+			<a
+				href="https://www.sozialwerk-breisgau.de/stellenangebote/am-bruckwald"
+				>Jetzt informieren</a
+			>
 		</div>
 	</div>
 </template>

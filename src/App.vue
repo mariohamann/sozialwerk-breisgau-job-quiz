@@ -2,12 +2,14 @@
 import Intro from "./components/Intro.vue";
 import Question from "./components/Question.vue";
 import Result from "./components/Result.vue";
+import Info from "./components/Info.vue";
 import QuestionsData from "./questions.json";
 import AreasData from "./areas.json";
 
 import { store } from "./store";
+import { infos } from "./infos";
 
-console.log(store);
+console.log(infos);
 </script>
 
 <template>
@@ -26,6 +28,7 @@ console.log(store);
 			<img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
 		</a>
 	</div>
+
 	<Intro />
 	<Question
 		v-for="(question, index) in QuestionsData"
@@ -33,5 +36,6 @@ console.log(store);
 		:question="question.title"
 		:answers="question.answers"
 	/>
+	<Info v-for="(content, index) in infos" :key="index" :content="content" />
 	<Result />
 </template>
