@@ -12,6 +12,7 @@
     "@tailwindcss/vite": "^4.1.14",
     "marked": "^16.3.0",
     "tailwindcss": "^4.1.14",
+    "vite-plugin-vsharp": "^1.9.1",
     "vue": "^3.5.22"
   },
   "devDependencies": {
