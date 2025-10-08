@@ -37,7 +37,7 @@ const imageSrc = new URL(
 			class="absolute inset-0 -z-10 size-full object-cover"
 		/>
 		<div
-			class="absolute inset-0 -z-10 bg-linear-to-t from-gray-900 via-gray-900/40"
+			class="absolute inset-0 -z-10 bg-linear-to-t from-gray-900/60 via-gray-900/5"
 		/>
 		<div
 			class="absolute inset-0 -z-10 rounded-2xl inset-ring inset-ring-gray-900/10"
