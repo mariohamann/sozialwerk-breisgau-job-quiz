@@ -46,7 +46,8 @@
         "areas": [
           "fsj_werkstatt",
           "arbeitserzieher",
-          "praktikum"
+          "praktikum",
+          "bueromanagement"
         ]
       },
       {
@@ -155,7 +156,8 @@
         "text": "Im Elterngespräch die Entwicklung von Jonas dokumentieren",
         "areas": [
           "soziale_arbeit",
-          "heilerziehungspfleger"
+          "heilerziehungspfleger",
+          "bueromanagement"
         ]
       },
       {
